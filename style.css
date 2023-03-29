@@ -7,28 +7,38 @@ h1 {
     border-style:dashed;
   }
 
-#left-container{
-    background-color:#eee;
-    width:20%;
-    height:100%;
-    left:0px;
-    top:0px;
-    position:absolute;
-    border:3px;
-    border-style:dashed;
-    border-color:darkorange;
-    padding: 10px;
+.container {
+    background-color: #eee;
+    width: 15%;
+    height: 100%;
+    top: 0px;
+    position: absolute;
+    padding: 10 px;
+    border: 3px;
+    border-style: dashed;
+    border-color: rgb(140, 17, 202);
 }
 
-#right-container{
-    background-color:#eee;
-    width:20%;
-    height:100%;
-    right:0px;
-    top:0px;
-    position:absolute;
-    border:3px;
-    border-style:dashed;
-    border-color:crimson;
-    padding: 10px;
+#left-container {
+    left: 0px;
+}
+
+#right-container {
+    right: 0px;
+}
+
+.plant-holder {
+    position: relative;
+    height: 13%;
+    left: -10px;
+    border: 3px;
+    border-style: dashed;
+    border-color:rgb(173, 33, 40);
+}
+
+.plant {
+    position: absolute;
+    max-width: 150%;
+    max-height: 150%;
+    z-index: 2;
 }
